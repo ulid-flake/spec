@@ -46,6 +46,14 @@ ulidflake.New().Int() // 14246757444195114
   - Monotonic sort order correctly detects and handles IDs generated in the same millisecond
   - Prefer `+n` entropy rather than `+1` for randomness incrementation, adding difficulty in guessing IDs
 
+## Implementations in all kinds of languages
+
+From ourselves and the community! 🎉
+
+| Language | Author | Binary Implementation |
+| -------- | ------ | --------------------- |
+|  |  |  |
+
 ## Specification
 
 Below is the default stand-alone version specification of Ulid-Flake.
@@ -192,11 +200,3 @@ Scalable version (optional):
 | 12_bit_uint_time_low  |      15_bit_uint_random     | 5_bit_s |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 ```
-
-## Implementations in all kinds of languages
-
-From ourselves and the community! 🎉
-
-| Language | Author | Binary Implementation |
-| -------- | ------ | --------------------- |
-|  |  |  |
