@@ -50,6 +50,8 @@ ulidflake.New().Int() // 14246757444195114
 
 Below is the default stand-alone version specification of Ulid-Flake.
 
+<img width="600" alt="ulid-flake-stand-alone" src="https://github.com/ulid-flake/spec/assets/38312944/37d44c3f-1937-4c2e-b7ec-e7c0f0debe25">
+
 *Note: a `1-bit` sign bit is included in the timestamp.*
 
 ```text
@@ -64,6 +66,10 @@ Stand-alone version (default):
 ```
 
 Also, a scalable version is provided for distributed system using purpose.
+
+<img width="600" alt="ulid-flake-scalable" src="https://github.com/ulid-flake/spec/assets/38312944/e306ebd9-9406-436f-b6cd-a1004745f1b0">
+
+*Note: a `1-bit` sign bit is included in the timestamp.*
 
 ```
 Scalable version (optional):
