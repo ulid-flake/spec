@@ -15,7 +15,7 @@ Ulid-Flake aims to create a compact and efficient identifier system suitable for
 - Average ID generation rate: 1 ID per second.
 - Occasional bursts: Multiple IDs generated within the same millisecond during peak periods.
 - Single database setup: Typically no distributed system, single DB use.
-- Multiple pods setup occaionally: Even with multiple pods setup, the number of pod replicas that used can still be counted with fingers.
+- Multiple pods setup occasionally: Even with multiple pods setup, the number of pod replicas that used can still be counted with fingers.
 - Compact and readable IDs: Prefer shorter and more readable strings for user interactions.
 - Predictability vs monotonicity: Prioritize difficulty in guessing IDs over strict monotonic order.
 - Time span: Usable over a 100-year time frame.
@@ -113,7 +113,7 @@ Total `64-bit` size for compatibility with common integer (`long int`, `int64` o
 ### Sorting
 
 The left-most character must be sorted first, and the right-most character sorted last, ensuring lexicographical order.
-The default ASCII character set must be used. 
+The default ASCII character set must be used.
 
 When using the stand-alone version strictly in a stand-alone environment, or using the scalable version in both stand-alone or distributed environment, sort order is guaranteed within the same millisecond. however, when using the stand-alone version in a distributed system, sort order is not guaranteed within the same millisecond.
 
@@ -165,11 +165,11 @@ Crockford's Base32 is used as shown. This alphabet excludes the letters I, L, O,
 When generating a Ulid-Flake within the same millisecond, the `randomness` component is incremented by a `n-bit` entropy in the least significant bit position (with carrying).
 Thus, comparing just incremented `1-bit` one time, the incremented `n-bit` mechanism cloud lead to an overflow error sooner.
 
-when the generation is failed with overflow error, it should be properly handled in the application to wait and create a new one till the next millisecond is coming. The imeplementation of Ulid-Flake should just return the overflow error, and leave the rest to the application.
+when the generation is failed with overflow error, it should be properly handled in the application to wait and create a new one till the next millisecond is coming. The implementation of Ulid-Flake should just return the overflow error, and leave the rest to the application.
 
 #### Timestamp and Over All
 
-Technically, a `13-character` Base32 encoded string can contain 65 bits of information, whereas a Ulid-Flake must only contain 64 bits. Futher more, there is a `1-bit` sign bit at the beginning, only 63 bits are actrually carrying effective information. Therefore, the largest valid Ulid-Flake encoded in Base32 is `7ZZZZZZZZZZZZ`, which corresponds to an epoch time of `8,796,093,022,207` or `2^43 - 1`.
+Technically, a `13-character` Base32 encoded string can contain 65 bits of information, whereas a Ulid-Flake must only contain 64 bits. Further more, there is a `1-bit` sign bit at the beginning, only 63 bits are actually carrying effective information. Therefore, the largest valid Ulid-Flake encoded in Base32 is `7ZZZZZZZZZZZZ`, which corresponds to an epoch time of `8,796,093,022,207` or `2^43 - 1`.
 
 Any attempt to decode or encode a Ulid-Flake larger than this should be rejected by all implementations and return an overflow error, to prevent overflow bugs.
 
