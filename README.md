@@ -200,3 +200,9 @@ Scalable version (optional):
 | 12_bit_uint_time_low  |      15_bit_uint_random     | 5_bit_s |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 ```
+
+# Acknowledgments
+
+[ULID](https://github.com/ulid/spec)
+
+[Twitter's Snowflake](https://blog.x.com/engineering/en_us/a/2010/announcing-snowflake)
