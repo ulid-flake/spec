@@ -52,7 +52,7 @@ From ourselves and the community! 🎉
 
 | Language | Author | Binary Implementation |
 | -------- | ------ | --------------------- |
-|  |  |  |
+| [Python](https://github.com/ulid-flake/python) | [ulid-flake](https://github.com/ulid-flake) | ✅ |
 
 ## Specification
 
