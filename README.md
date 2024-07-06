@@ -52,6 +52,7 @@ From ourselves and the community! 🎉
 
 | Language | Author | Binary Implementation |
 | -------- | ------ | --------------------- |
+| [Go](https://github.com/abailinrun/ulid-flake-go) | [abailinrun](https://github.com/abailinrun) | ✅ |
 | [Python](https://github.com/ulid-flake/python) | [ulid-flake](https://github.com/ulid-flake) | ✅ |
 
 ## Specification
