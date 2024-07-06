@@ -52,8 +52,36 @@ From ourselves and the community! 🎉
 
 | Language | Author | Binary Implementation |
 | -------- | ------ | --------------------- |
+| C | waiting for you! | |
+| C++ | waiting for you! | |
+| C# | waiting for you! | |
+| Clojure | waiting for you! | |
+| COBOL | waiting for you! | |
+| D | waiting for you! | |
+| Dart | waiting for you! | |
+| Elixir | waiting for you! | |
+| F# | waiting for you! | |
+| Fortran | waiting for you! | |
 | [Go](https://github.com/abailinrun/ulid-flake-go) | [abailinrun](https://github.com/abailinrun) | ✅ |
+| Haskell | waiting for you! | |
+| Java | waiting for you! | |
+| JavaScript | waiting for you! | |
+| Kotlin | waiting for you! | |
+| Lisp | waiting for you! | |
+| Lua | waiting for you! | |
+| Objective-C | waiting for you! | |
+| Perl | waiting for you! | |
+| PHP | waiting for you! | |
 | [Python](https://github.com/ulid-flake/python) | [ulid-flake](https://github.com/ulid-flake) | ✅ |
+| R | waiting for you! | |
+| Ruby | waiting for you! | |
+| Rust | waiting for you! | |
+| Scala | waiting for you! | |
+| Scheme | waiting for you! | |
+| Swift | waiting for you! | |
+| Zig | waiting for you! | |
+| more... | waiting for you! | |
+
 
 ## Specification
 
