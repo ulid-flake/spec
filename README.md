@@ -60,6 +60,7 @@ From ourselves and the community! 🎉
 | D | waiting for you! | |
 | Dart | waiting for you! | |
 | Elixir | waiting for you! | |
+| Erlang | waiting for you! | |
 | F# | waiting for you! | |
 | Fortran | waiting for you! | |
 | [Go](https://github.com/abailinrun/ulid-flake-go) | [abailinrun](https://github.com/abailinrun) | ✅ |
