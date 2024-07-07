@@ -59,7 +59,7 @@ From ourselves and the community! 🎉
 | COBOL | waiting for you! | |
 | D | waiting for you! | |
 | Dart | waiting for you! | |
-| Elixir | waiting for you! | |
+| [Elixir](https://github.com/abailinrun/ulid-flake-elixir) | [abailinrun](https://github.com/abailinrun) | ✅ |
 | Erlang | waiting for you! | |
 | F# | waiting for you! | |
 | Fortran | waiting for you! | |
